@@ -75,7 +75,7 @@ class App extends Component {
     return (
 <BrowserRouter>
 <Routes>
-    <Route path='/aye-weather' />
+    <Route  path='/aye-weather' element = {<App/>}/>
 </Routes>
       <div className="father">
         
