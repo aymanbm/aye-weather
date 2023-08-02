@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/aye-project/static/css/main.776d0fe1.css",
+    "main.js": "/aye-project/static/js/main.dc59b31a.js",
+    "static/js/787.13d76ca7.chunk.js": "/aye-project/static/js/787.13d76ca7.chunk.js",
+    "index.html": "/aye-project/index.html",
+    "main.776d0fe1.css.map": "/aye-project/static/css/main.776d0fe1.css.map",
+    "main.dc59b31a.js.map": "/aye-project/static/js/main.dc59b31a.js.map",
+    "787.13d76ca7.chunk.js.map": "/aye-project/static/js/787.13d76ca7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.776d0fe1.css",
+    "static/js/main.dc59b31a.js"
+  ]
+}
