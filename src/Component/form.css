@@ -1,0 +1,74 @@
+.form{
+    padding: 50px 73px;
+    
+    
+}
+.div-form{
+    width: 550px;
+    height: 160px;
+}
+form input{
+    width: 400px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    color: #FAFAFA;
+    background-color: transparent;
+    font-size: 19px;
+    outline: none;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+    box-shadow: 3px 3px #FAFAFA;
+    padding: 5px;
+    padding-left: 10px;
+
+    
+
+}
+form input:focus{
+    outline: none;
+    background-color: transparent;
+}
+
+/* form button{
+    margin: 10px 35%;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    box-shadow: 0 0 9px black ;
+    transition: 0.2s ease-in;
+}
+form button:hover{
+    background-color: gold;
+    color: black;
+    outline: none;
+} */
+button {
+    font-family: monospace;
+    font-size: .8rem;
+    color: #FAFAFA;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #FAFAFA;
+    background: transparent;
+    /* background: #252525; */
+    box-shadow:  0px 0px 2px 2px #FAFAFA;
+    cursor: pointer;
+    margin: 10px 35%;
+    height: 30px;
+    width: 110px;
+    padding: 5px;
+}
+
+button:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+}
+
