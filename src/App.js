@@ -4,6 +4,7 @@ import './Component/form.css';
 import './Component/weather.css';
 import Form from './Component/form';
 import Weather from './Component/weather';
+import { Route, Router , Routes , BrowserRouter } from 'react-router-dom';
 
 // const API_KEY = "e36ed364400282e43250b6c4c0274d44";
 // const API_KEY = "b0b3e3b4523d9c98bae8ee944b255a7f";
@@ -72,34 +73,41 @@ class App extends Component {
   render() { 
 
     return (
-
+<BrowserRouter>
+<Routes>
+    <Route path='/aye-weather' />
+</Routes>
       <div className="father">
-        <div className="app1">
-          <div></div>
-        </div>
-        <div className="App">
-            <div className="App-1">
-              <button onClick={this.change}>Get Weather</button>
+        
+        
+            <div className="app1">
+              <div></div>
             </div>
-            <div className="App-2">
-            
-                <h2>Weather App</h2>
-                <Form getWeather={this.getWeather}/>
-                <Weather
-                  temperature={this.state.temperature}
-                  city={this.state.city}
-                  country={this.state.country}
-                  humidity={this.state.humidity}
-                  description={this.state.description}
-                  msg={this.state.msg}
-                /> 
-            
+            <div className="App">
+                <div className="App-1">
+                  <button onClick={this.change}>Get Weather</button>
+                </div>
+                <div className="App-2">
+                
+                    <h2>Weather App</h2>
+                    <Form getWeather={this.getWeather}/>
+                    <Weather
+                      temperature={this.state.temperature}
+                      city={this.state.city}
+                      country={this.state.country}
+                      humidity={this.state.humidity}
+                      description={this.state.description}
+                      msg={this.state.msg}
+                    /> 
+                
+                </div>
             </div>
-        </div>
-        <div className="app2">
-          <div></div>
-        </div>
+            <div className="app2">
+              <div></div>
+            </div>
+          
       </div>
+</BrowserRouter>
     );
   }
 }
